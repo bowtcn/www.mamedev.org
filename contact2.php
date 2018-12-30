@@ -1,22 +1,22 @@
 <?php
-$title = 'MAME | Contact the Team';
+$title = 'MAME | 联系团队';
 ?>
 	<?php require($_SERVER['DOCUMENT_ROOT'] . '/_include/html/header.html'); ?>
 
     <!-- Page Content -->
     <div class="container">
 
-		<center><h1 class="page-header">Contacting the MAME Team</h1></center>
+		<center><h1 class="page-header">联系MAME团队</h1></center>
 		
 				<p>
-					If you need to contact the MAME development team for any reason, please fill out the form below. Make
-					sure you select the appropriate person or group to send it to.
+					如果您因任何原因需要联系MAME开发团队，请填写下面的表格。使
+					确保选择要发送给它的相应人员或组。
 					</p>
 				
 					<p>
-					If you think you have found a bug in MAME, or are having trouble using the software, go back to the
-					<a href="http://mamedev.org/contact.html">main contact page</a> and select the appropriate option.
-					Email sent to this address regarding bugs or user support will be ignored completely.
+					如果您认为自己在MAME中发现了错误，或者在使用该软件时遇到问题，请返回
+					<a href="http://mamedev.org/contact.html"> 主要联系页面</a> 并选择适当的选项。
+					发送到此地址的有关错误或用户支持的电子邮件将被完全忽略。
 					</p>
 
 				<script language="JavaScript" type="text/javascript">
@@ -37,12 +37,12 @@ $title = 'MAME | Contact the Team';
 				{
 					if (form.recipient.value == "dummy" || form.recipient.value == "-")
 					{
-						alert("Please select a recipient from the popup list.");
+						alert("请从弹出列表中选择一个收件人.");
 						return false;
 					}
 					if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(form.email.value)))
 					{
-						alert("Please enter a valid email address.")
+						alert("请输入有效的电子邮件地址.")
 						return false;
 					}
 					form.action="sendmail.php";
@@ -55,29 +55,29 @@ $title = 'MAME | Contact the Team';
 							<input type="hidden" name="success" value="sent.html" />
 
 							<div class="input-group">	
-								<span class="input-group-addon">Send To:</span>
+								<span class="input-group-addon">发送至：</span>
 								<select name="recipient" class="form-control">
-									<option selected="selected" value="dummy">Select a recipient...</option>
+									<option selected="selected" value="dummy">选择收件人...</option>
 									<option value="-">---</option>
-									<option value="webmaster">MAMEDev.org Webmaster</option>
-									<option value="legal">MAME License/Trademark Questions</option>
+									<option value="webmaster">MAMEDev.org 网站管理员</option>
+									<option value="legal">MAME许可/商标问题</option>
 									<option value="-">---</option>
-									<option value="team">MAME Team (general)</option>
+									<option value="team">MAME团队（一般）</option>
 								</select>
 							</div>
 							<br/>
 							<div class="input-group">	
-								<span class="input-group-addon">From:</span>
+								<span class="input-group-addon">来自：</span>
 								<input type="text" size="50" name="email" class="form-control" />
 							</div>
 							<br/>
 							<div class="input-group">	
-								<span class="input-group-addon">Subject:</span>
+								<span class="input-group-addon">主题：</span>
 								<input type="text" size="50" name="subject" class="form-control"/>
 							</div>
 							<br/>
 							<div class="input-group">	
-								<span class="input-group-addon">Message:</span>
+								<span class="input-group-addon">消息：</span>
 								<textarea name="comment" cols="75" rows="10"class="form-control"></textarea>
 							</div>
 							<br/>
