@@ -3,17 +3,17 @@
 
 $rootpath = $_SERVER['DOCUMENT_ROOT'] . '/';
 
-$title = 'MAMEDEV.org | Home of The MAME Project';
+$title = 'MAMEDEV.org | MAME项目之家';
 ?>
 	<?php require($_SERVER['DOCUMENT_ROOT'] . '/_include/html/header.html'); ?>
 
-    <!-- Full Width Image Header with Logo -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
+    <!-- 全宽度图像标题与标志 -->
+    <!-- 图像背景设置在全宽度的图片full-width-pics.css文件. -->
     <header class="image-bg-fluid-height">
         <img class="img-responsive img-center" src="_include/img/logo-mame.png" alt="">
     </header>
 
-    <!-- Page Content -->
+    <!-- 页面内容 -->
     <div class="container">
 
 <?php 
@@ -21,45 +21,45 @@ if ($post == "")
 {
 ?>
 
-        <!-- Marketing Icons Section -->
+        <!-- 营销图标部分 -->
         <div class="row">
-            <center><h1 class="page-header">Welcome to The Official Site of the MAME Development Team</h1></center>
+            <center><h1 class="page-header">欢迎来到MAME开发团队的官方网站</h1></center>
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h4><i class="fa fa-fw fa-check"></i> What is MAME</h4>
+					<h4><i class="fa fa-fw fa-check"></i> 什么是MAME</h4>
 				</div>
 				<div class="panel-body">
-					<p>MAME is a multi-purpose emulation framework.</p>
-					<p>MAME's purpose is to preserve decades of software history. As electronic technology continues to rush forward, MAME prevents this important "vintage" software from being lost and forgotten. This is achieved by documenting the hardware and how it functions. The source code to MAME serves as this documentation. The fact that the software is usable serves primarily to validate the accuracy of the documentation (how else can you prove that you have recreated the hardware faithfully?). Over time, MAME (originally stood for Multiple Arcade Machine Emulator) absorbed the sister-project MESS (Multi Emulator Super System), so MAME now documents a wide variety of (mostly vintage) computers, video game consoles and calculators, in addition to the arcade video games that were its initial focus.</p>
+					<p>MAME是一个多用途的仿真框架。</p>
+					<p>MAME的目的是保存数十年的软件历史。随着电子技术的不断涌现，MAME阻止了这个重要的“复古”软件被丢失和遗忘。这是通过记录硬件及其功能来实现的。MAME的源代码作为此文档。该软件可用的事实主要是为了验证文档的准确性（如何证明您已经忠实地重新创建了硬件？）。随着时间的推移，MAME（最初代表多街机器模拟器）吸收了姐妹项目MESS（多模拟器超级系统），因此MAME现在记录了各种各样的（主要是复古的）计算机，视频游戏控制台和计算器，以及最初关注的街机视频游戏。</p>
 				</div>
 			</div>
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h4><i class="fa fa-fw fa-check"></i> License</h4>
+					<h4><i class="fa fa-fw fa-check"></i> 许可证|License</h4>
 				</div>
 				<div class="panel-body">
-				The MAME project as a whole is distributed under the terms of the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License, 2</a> (GPL-2.0), since it contains code made available under multiple GPL-compatible licenses. 
-				A great majority of files (over 90% including core files) are under the <a href="http://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause License</a> and we would encourage new contributors to distribute files under this license.
+				MAME的项目作为一个整体下的条款分布 <a href="http://opensource.org/licenses/GPL-2.0">GNU通用公共许可证，2 </ 一 >（GPL-2.0）时，由于它包含在多个GPL兼容许可下提供的代码。
+				绝大部分的文件（超过90％，包括核心文件）下的 <a href="http://opensource.org/licenses/BSD-3-Clause">BSD -3-条款许可</ 一 >和我们会鼓励新贡献者根据此许可证分发文件。
 <br/>
-Please note that MAME is a registered trademark of Gregory Ember, and permission is required to use the "MAME" name, logo or wordmark.
+请注意，MAME是Gregory Ember的注册商标，并且必须获得使用“MAME”名称，徽标或文字标记的许可。
 				</div>
 			</div>
         </div>
         <!-- /.row -->
 
-        <!-- Supported Platforms Section -->
+        <!-- 支持的平台部分 -->
         <div class="row">
             <div class="col-lg-12">
-                <center><h2 class="page-header">Supported Platforms</h2></center>
+                <center><h2 class="page-header">支持的平台</h2></center>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-6">
-                <center><i class="fa fa-windows fa-5x"></i><br/><br/><a href="release.php" class="btn btn-success"><h2>Download</h2></a><br/><br/></center>
+                <center><i class="fa fa-windows fa-5x"></i><br/><br/><a href="release.php" class="btn btn-success"><h2>下载 Download</h2></a><br/><br/></center>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-6">
-				<center><i class="fa fa-apple fa-5x"></i><br/><br/><a href="http://wiki.mamedev.org/index.php/SDL_Supported_Platforms" class="btn btn-success"><h2>Download</h2></a><br/><br/></center>
+				<center><i class="fa fa-apple fa-5x"></i><br/><br/><a href="http://wiki.mamedev.org/index.php/SDL_Supported_Platforms" class="btn btn-success"><h2>下载 Download</h2></a><br/><br/></center>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <center><i class="fa fa-linux fa-5x"></i><br/><br/><a href="http://wiki.mamedev.org/index.php/SDL_Supported_Platforms" class="btn btn-success"><h2>Download</h2></a><br/><br/></center>
+                <center><i class="fa fa-linux fa-5x"></i><br/><br/><a href="http://wiki.mamedev.org/index.php/SDL_Supported_Platforms" class="btn btn-success"><h2>下载 Download</h2></a><br/><br/></center>
             </div>
         </div>
         <!-- /.row -->
@@ -67,12 +67,12 @@ Please note that MAME is a registered trademark of Gregory Ember, and permission
 }
 ?>
 
-        <!-- Posts Section -->
+        <!-- 文章部分 -->
         <div class="row">
             <div class="col-lg-12">
                 <center><h2 class="page-header">News</h2></center>
             </div>
-	    <!-- navigation bar -->
+	    <!-- 导航栏 -->
     <div class="row">
 	<?php
         if ($pagenum == "" && $post == "")
@@ -98,7 +98,7 @@ Please note that MAME is a registered trademark of Gregory Ember, and permission
     <!-- /.row -->
 <?php 
 	if (count($entries) == 0)
-		echo("<p>No matching items found!</p>");
+		echo("<p>找不到匹配的项目！</p>");
 
 	for ($index = 0; $index < count($entries); $index++)
 	{
@@ -117,10 +117,10 @@ Please note that MAME is a registered trademark of Gregory Ember, and permission
 		echo("\t\t\t\t\t</div>\n");
 	}
 ?>
-		<!-- posts end -->
+		<!-- 帖子结束 -->
     </div>
     <div class="row"></div> 
-    <!-- navigation bar -->
+    <!-- 导航栏 -->
     <div class="row">
 	<?php
         if ($pagenum == "" && $post == "")
