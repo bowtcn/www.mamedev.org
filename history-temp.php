@@ -1,107 +1,107 @@
 <?php
-$title = 'MAME | Project History';
+$title = 'MAME | 项目历史';
 ?>
 	<?php require($_SERVER['DOCUMENT_ROOT'] . '/_include/html/header.html'); ?>
 
-    <!-- Page Content -->
+    <!-- 页面内容 -->
     <div class="container">
 
-		<center><h1 class="page-header">MAME Project History</h1></center>
-		<center><h2>...and MESS</h2></center>
+		<center><h1 class="page-header">MAME项目历史</h1></center>
+		<center><h2>...和消息</h2></center>
 		
-		<h2>What's New?</h2>
+		<h2>有什么新鲜事吗?</h2>
 
 		<p>
-		A project as big as MAME certainly has had its ups and downs during the course of its existence. A comprehensive list of what has changed in the project from a source code point of view is 
-		available in the various whatsnew.txt files that can be found on the <a href="oldrel.html">Previous Releases</a> page. The content of these files has also been extracted into our wiki in the <a href="http://wiki.mamedev.org/index.php/Previous_MAME_Versions">Previous MAME Versions</a> section.
+		像MAME这样大的项目在其存在的过程中肯定有其起伏。从源代码的角度来看，项目中已发生变化的综合列表是
+		在可以在找到的各种whatsnew.txt文件可用<a href="oldrel.html">以前版本</a> 页。这些文件的内容也被萃取到我们的在维基<a href="http://wiki.mamedev.org/index.php/Previous_MAME_Versions">以前街机模拟器版本</a> 部分.
 		</p>
 		
-		<a target="_blank" href="mame_chart_latest-1224.png"><img alt="Chart of MAME Development" align="right" src="mame_chart_latest-256.png" width="256" height="181" /></a>
+		<a target="_blank" href="mame_chart_latest-1224.png"><img alt="MAME发展的图表" align="right" src="mame_chart_latest-256.png" width="256" height="181" /></a>
 
-		<h2>Supported ROMs</h2>
+		<h2>支持的ROM</h2>
 
 		<p>
-		An alternate measure of the success of the project is to simply count the number of supported sets. The chart at the right (click for a larger view) shows the overall trend since the beginning.
+		项目成功的另一个衡量标准是简单地计算支持的集合的数量。右侧的图表（单击以查看大图）显示自开始以来的整体趋势。
 		</p>
-		<a target="_blank" href="mame_chart_latest.pdf">Vector PDF file</a>
+		<a target="_blank" href="mame_chart_latest.pdf">矢量PDF文件</a>
 
-		<h2>Daily Work-in-Progress 1999-2004</h2>
+		<h2>日常工作 1999-2004</h2>
 		
 		<p>
-		Another fascinating way to look back at the project's history is to peruse the incredibly detailed Daily MAME Work-in-Progress (WIP) pages. From <a href="oldwip/wip9902.html">February 1999</a> through <a href="oldwip/wip0407.html">July 2004</a>, Santeri Saarimaa took on the challenging task of maintaining a detailed daily work-in-progress report of MAME development. These page represent a peek into what was happening during one of the most active times in the project's development.
+		回顾项目历史的另一个有趣方式是仔细阅读令人难以置信的每日MAME正在进行的工作（WIP）页面。从<a href="oldwip/wip9902.html">1999年2月</a> 到 <a href="oldwip/wip0407.html">2004年7月</a>, Santeri Saarimaa承担了维护一个详细的具有挑战性的任务MAME开发的日常工作进度报告。这些页面代表了在项目开发过程中最活跃的时期发生的事情。
 		</p>
 		
-		<h2>Tables</h2>
+		<h2>表格</h2>
 		
 		<p>
-		Two tables are provided for people that want to know more about the project's history.<br>
-		The first one right below, lists what are considered major milestones of the project.
+		提供了想要了解更多关于该项目的历史的人两个表。<br>
+		下面的第一个列出了项目的主要里程碑。
 		</p>
 		<p>
-		Then there is a much bigger table (super-set of the one below), listing every MAME (and MESS) release, important milestones, date of release, number of parents, clones, devices, CHD (for MAME only), Mechanical and non-working sets. These data are also used for the graph.
+		然后有一个更大的表（下面的一个超级集），列出每个MAME（和MESS）版本，重要的里程碑，发布日期，父母的数量，克隆，设备，CHD（仅限MAME），机械和非工作集。这些数据也用于图表。
 		</p>
-		<a target="_blank" href="full_mame_history.html">MAME Complete History Table</a>
+		<a target="_blank" href="full_mame_history.html">MAME完整历史记录表</a>
 		
-		<h2>Project Milestones</h2>
+		<h2>项目里程碑</h2>
 
 <div class="panel panel-primary">
-	  <div class="panel-heading">MAME Project Milestones</div>
+	  <div class="panel-heading">MAME项目里程碑</div>
 <table class="table">
  <col width=12% align="right">
  <col width=18% align="center">
  <col width=70%>
  <tr>
-  <td>Release</td>
-  <td>Version</td>
-  <td>Milestone</td>
+  <td>发布|Release</td>
+  <td>版本|Version</td>
+  <td>里程碑|Milestone</td>
  </tr>
  <tr>
  <td>28
   Dec 16</td>
   <td>0.181</td>
-  <td>Many MCUs are implemented improving sound in many games. Votrax SC-01 emulated. Further ARM improvements (Archimedes). Debugger works on Linux/Mac.
+  <td>在许多游戏中实施了许多改善声音的MCU。Votrax SC-01仿真。进一步的ARM改进（阿基米德）。调试器适用于Linux / Mac。
   </td>
  </tr>
  <tr>
  <td>30
   Nov 16</td>
   <td>0.180</td>
-  <td>Improvement in ARM CPU, in turn improves Archimedes emulation. Acclaim RAX sound board emulated, bringing improvements to some classics.
+  <td>ARM CPU的改进反过来改善了阿基米德仿真。Acclaim RAX音板模拟，改进了一些经典。
   </td>
  </tr>
  <tr>
  <td>26
   Oct 16</td>
   <td>0.179</td>
-  <td>No more debug build. 32bit binary is marked as such. Some rare systems added. Big software list cleanup. Whatsnew includes some software list details.
+  <td>不再需要调试版本。32位二进制文​​件标记为这样。添加了一些稀有系统。大软件清单清理。Whatsnew包含一些软件列表详细信息。
   </td>
  </tr>
  <tr>
   <td>28
   Sep 16</td>
   <td>0.178</td>
-  <td>UI more modular (DATs described in LUA, not hardcoded) and other UI improvements. Many machine fixes. Many new layouts.
+  <td>UI更模块化（在LUA中描述的DAT，不是硬编码的）和其他UI改进。许多机器修复。许多新的布局。
   </td>
  </tr>
  <tr>
   <td>31
   Aug 16</td>
   <td>0.177</td>
-  <td>Some big bugs got fixed (dual lightguns, menus out of screen). Many new computers added in machines. VGM file player. Improvements in serial/keyboard devices.
+  <td>一些大错误得到修复（双光枪，屏幕外的菜单）。机器中添加了许多新计算机。VGM文件播放器。串行/键盘设备的改进。
   </td>
  </tr>
  <tr>
   <td>27
   Jul 16</td>
   <td>0.176</td>
-  <td>Cooperation with Debian team. New shaders. More progress on SPARC machines.
+  <td>与Debian团队合作。新的着色器。在SPARC机器上取得更多进展。
   </td>
  </tr>
  <tr>
   <td>29
   Jun 16</td>
   <td>0.175</td>
-  <td>Much work on emulating Sun SPARC machines. Many new software list CHD dumps added (esp. for PSX).
+  <td>有关模拟Sun SPARC计算机的大量工作。添加了许多新的软件列表CHD转储（尤其是PSX）。
   </td>
  </tr>
   <tr>
@@ -109,159 +109,159 @@ $title = 'MAME | Project History';
   <td>27
   Apr 16</td>
   <td>0.173</td>
-  <td>Plenty new graphics
-  scaling modes. Support for large archives (&gt;4GB and newer archive
-  features), solving the issue with huge zipped extras in PD. Some work towards
-  Universal Windows App support (UWP).
+  <td>充足的新图形
+  缩放模式。对于大档案支持（＆GT ; 4GB，更新的档案
+  功能），解决了PD中巨大的压缩附加功能的问题。一些努力
+  通用Windows应用程序支持（UWP）。
   </td>
  </tr>
  <tr>
   <td>30
   Mar 16</td>
   <td>0.172</td>
-  <td>First MAME release with
-  new license. New documentation. Major ini changes. Extended BGFX renderer
-  (planing to move completely to). Improved screen effects. Major improvement
-  of file handling support.</td>
+  <td>第一个MAME版本
+新的许可证。新文档。ini的重大变化。扩展BGFX渲染器
+(打算完全搬到)。改进的屏幕效果。重大的改进
+文件处理支持。</td>
  </tr>
  <tr>
   <td>04
   Mar 16</td>
   <td></td>
-  <td>MAME is now Free and Open
-  Source software based on GPL-2.0+ license.</td>
+  <td>MAME现在免费开放
+  源软件基于GPL-2.0 +许可证。</td>
  </tr>
  <tr>
   <td>24
   Feb 16</td>
   <td>0.171</td>
-  <td>MEWUI merges with MAME
-  replacing default MAME UI for most platforms. Initial BGFX work. Support for
-  videosnaps capture.</td>
+  <td>MEWUI与MAME合并
+  替换大多数平台的默认MAME UI。最初的BGFX工作。支持
+  videosnaps捕获。</td>
  </tr>
  <tr>
   <td>27
   Jan 16</td>
   <td>0.170</td>
-  <td>LUA support (back) in.
-  More video filtering/effects work.</td>
+  <td>LUA支持（返回）。
+  更多视频过滤/效果工作。</td>
  </tr>
  <tr>
   <td>01
   Jan 16</td>
   <td></td>
-  <td>MSYS2 based tools to build
+  <td>基于MSYS2的工具构建
   MAME.</td>
  </tr>
  <tr>
   <td>30
   Dec 15</td>
   <td>0.169</td>
-  <td>Modernized core to C++14.
-  First release to build clean in Raspberry Pi 2 and other ARM Linux targets.</td>
+  <td>现代化的核心到C ++ 14。
+  第一个在Raspberry Pi 2和其他ARM Linux目标中构建清理的版本。</td>
  </tr>
  <tr>
   <td>25
   Nov 15</td>
   <td>0.168</td>
-  <td>More HLSL changes.</td>
+  <td>更多HLSL更改。</td>
  </tr>
  <tr>
   <td>28
   Oct 15</td>
   <td>0.167</td>
-  <td>Major HLSL changes.</td>
+  <td>主要HLSL更改。</td>
  </tr>
  <tr>
   <td>27
   May 15</td>
   <td>0.162</td>
-  <td>MESS merges with MAME.</td>
+  <td>MESS与MAME合并。</td>
  </tr>
  <tr>
   <td>20
   May 15</td>
   <td></td>
-  <td>MAME starts work to become
-  Open Source.</td>
+  <td>MAME开始工作成为
+  开源。</td>
  </tr>
  <tr>
   <td>25
   Feb 15</td>
   <td>0.159</td>
-  <td>Massive addition of mechanical games.</td>
+  <td>大量增加机械游戏。</td>
  </tr>
  <tr>
   <td>20
   Oct 14</td>
   <td></td>
-  <td>Project (also) on GIT.</td>
+  <td>GIT项目(也)。</td>
  </tr>
  <tr>
   <td>10
   Oct 14</td>
   <td>0.155</td>
-  <td>Raiden II / DX finally working.</td>
+  <td>Raiden II / DX终于工作了。</td>
  </tr>
  <tr>
   <td>23
   Jul 14</td>
   <td>0.154</td>
-  <td>Many devices added.</td>
+  <td>添加了许多设备。</td>
  </tr>
  <tr>
   <td>07
   Apr 14</td>
   <td>0.153</td>
-  <td>Independent palettes (as
-  devices) and other architectural changes and major code modernization.</td>
+  <td>独立调色板（如
+  设备）和其他架构变化和主要代码现代化。</td>
  </tr>
  <tr>
   <td>05
   Nov 13</td>
   <td>0.151</td>
-  <td>Major NeoGeo driver
-  updates.</td>
+  <td>主要的NeoGeo驱动
+  更新。</td>
  </tr>
  <tr>
   <td>17
   Sep 13</td>
   <td>0.150</td>
-  <td>First release after
-  abandoning u intermediate releases. Major video interface changes. Many new video devices because of the change.</td>
+  <td>之后首次发布
+  放弃你的中间版本。主要视频界面的变化。许多新的视频设备因为变化。</td>
  </tr>
  <tr>
   <td>23
   Jul 13</td>
   <td>0.149u1</td>
-  <td>Last u release. Major work on the definition of devices.</td>
+  <td>最后一次发布。关于设备定义的主要工作。</td>
  </tr>
  <tr>
   <td>10
   Mar 13</td>
   <td></td>
-  <td>Site on new server.</td>
+  <td>新服务器上的站点。</td>
  </tr>
  <tr>
   <td>11
   Jan 13</td>
   <td>0.148</td>
-  <td>First mention of MESS
-  along with MAME in release news and first MESS binary in mamedev.org site,
-  widening the foundation towards project merging.</td>
+  <td>首先提到MESS
+  在mamedev.org网站上发布新闻和第一个MESS二进制文件中的MAME，
+  扩大项目合并的基础。</td>
  </tr>
  <tr>
   <td>07
   Dec 12</td>
   <td></td>
-  <td>Support for Python (and
-  new dev tools).</td>
+  <td>支持Python（和
+  新的开发工具）。</td>
  </tr>
  <tr>
   <td>30
   Oct 12</td>
   <td>0.147u2</td>
-  <td>New implementation of device callback module.</td>
+  <td>设备回调模块的新实现。</td>
  </tr>
  <tr>
   <td>17
