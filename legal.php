@@ -1,34 +1,35 @@
 <?php
-$title = 'MAME | Legal Information';
+$title = 'MAME | 法律信息';
 ?>
 	<?php require($_SERVER['DOCUMENT_ROOT'] . '/_include/html/header.html'); ?>
 
     <!-- Page Content -->
     <div class="container">
 
-		<center><h1 class="page-header">MAME Legal Information</h1></center>
+		<center><h1 class="page-header">MAME法律信息</h1></center>
 		
 		<a name="license"></a>
 
-		<h2>License</h2>
+		<h2>许可证</h2>
 
 					<pre>
 MAME
-Copyright (C) 1997-2018  MAMEDev and contributors
+版权所有(C) 1997-2018 MAMEDev和贡献者
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+本程序是免费软件;您可以重新分发它和/或修改它
+它是根据GNU通用公共许可证的条款发布的
+自由软件基金会;或许可的版本2，或
+(由您选择)任何后期版本。
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+这个程序是分发的，希望它会有用，
+但没有任何保证;甚至没有默示保证
+适销性或适合于特定用途。看到
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+GNU通用公共许可证，以获取更多细节。
+
+您应该同时收到GNU通用公共许可证的副本
+这个项目;如果没有，写信给自由软件基金会，
+美国马萨诸塞州，波士顿，富兰克林街51号，5楼，邮编02110-1301。
 </pre>
 				
                	<a name="trademark"></a>
@@ -36,9 +37,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
                  	<h2>Trademark</h2>
                  	
                  	<p>
-                 	MAME&reg; is a registered trademark of Gregory Ember. The "MAME" name
-                 	and MAME logo may not be used without first obtaining permission of the
-                 	trademark holder.
+                 	MAME®是Gregory Ember的注册商标。“曼恩”的名字
+                 	和MAME标识不得使用，除非事先获得许可的
+                 	商标持有人。
                  	</p>
 
                	<a name="copyright"></a>
@@ -46,28 +47,28 @@ with this program; if not, write to the Free Software Foundation, Inc.,
                  	<h2>Copyright</h2>
                  	
                  	<p>
-                 	The code in MAME is the work of hundreds of developers, each
-                 	of whom owns the copyright to the code they wrote. There is no central
-                 	copyright authority you can license the code from. The proper way to use 
-                 	the MAME source code is to examine it, using it to understand how the games 
-                 	worked, and then write your own emulation code. Sorry, there is no free
-                 	lunch here.
+                 	MAME中的代码是数百名开发人员的工作
+                 	他们所拥有的代码拥有版权。没有中心
+                 	您可以从中获得代码许可的版权机构。正确的使用方法
+                 	MAME源代码是检查它，用它来理解游戏的方式 
+                 	工作，然后编写自己的仿真代码。对不起，没有免费的
+                 	午餐在这里。
                  	</p>
-                 	<h2>Common Questions</h2>
+                 	<h2>常见问题</h2>
                  	
                  	<p>
-                 	<b>Q. Can I include MAME with my product?</b><br/>
+                 	<b>Q.我能否用MAME我的产品？</b><br/>
 
-                 	A. Yes. You can use 3-clause BSD compliant files but project as whole is under GPL-2.0 <a href="#license">license</a>
-					so in case you wish to use those part you need approval from specific developers.
+                 	A. 是的。可以使用3-子句BSD兼容文件，但项目作为整体是下GPL-2.0 <a href="#license">许可证license</a>
+					因此，如果您希望使用这些部分，则需要获得特定开发人员的批准。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. Can I sell my product with the MAME logo on it?</b><br/>
+                 	<b>Q. 我可以卖我的产品与MAME的标志就可以了？</b><br/>
 
-                 	A. No. Putting the logo on your product makes it appear that the product is
-                 	something officially endorsed by Gregory Ember, and constitutes <a href="#trademark">trademark</a>
-                 	infringement.
+                 	A. 不可以。将徽标放在产品上会使产品显示出来
+                 	东西由格雷戈里灰烬正式批准，并构成 <a href="#trademark">商标trademark</a>
+                 	侵权。
                  	</p>
                  	
                  	<p>
@@ -79,68 +80,68 @@ with this program; if not, write to the Free Software Foundation, Inc.,
                  	</p>
                  	
                  	<p>
-                 	<b>Q. Can I use the term "MAME" in the name of my software?</b><br/>
+                 	<b>Q. 我可以使用术语“MAME”在我的软件的名称？</b><br/>
 
-                 	A. Generally, no, especially if it is something that is sold. However, if you
-                 	are producing a free MAME-related piece of software, it is common that
-                 	permission is granted. <a href="contact.html">Send a query</a> to double-
-                 	check first, please.
+                 	A. 一般来说，不，特别是如果它是出售的东西。但是，如果你
+                 	正在制作一个免费的MAME相关软件，这是很常见的
+                 	许可被授予。<a href="contact.html">发送一个查询</a> 到双精度
+                 	请先检查一下。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. Can I put an arcade cabinet running MAME in a public location?</b><br/>
+                 	<b>Q. 我能否在公共场所安装一个MAME的arcade街机柜体?</b><br/>
 
-                 	A. Yes, but please note that you also need to have rights to ROMS you are using.
+                 	A. 是的，但请注意您还需要拥有正在使用的ROMS的权利。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. Can my non-profit use MAME or an arcade cabinet running MAME to help raise money?</b><br/>
+                 	<b>Q. 我的非盈利使用MAME或运行MAME街机内阁可以帮助筹集资金？</b><br/>
 
-                 	A. Yes, but please note that you also need to have rights to ROMS you are using.
+                 	A. 是的，但请注意您还需要拥有正在使用的ROMS的权利。
                  	</p>
                  	                 	
                  	<p>
-                 	<b>Q. Is it legal to download ROMs for a game when I own the PCB?</b><br/>
+                 	<b>Q. 它是合法的下载ROM的一个游戏，当我拥有PCB？</b><br/>
                  	
-                 	A. This is unclear and depends on where you live. In most cases you would need
-                 	to obtain permission from the original manufacturer to do so.
+                 	A. 这不清楚，取决于你住在哪里。在大多数情况下，您需要
+                 	获得原始制造商的许可。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. What about the free ROMs on the MAME site? Can I use those with my product?</b><br/>
+                 	<b>Q. MAME网站上的免费ROM怎么样？我可以使用那些产品？</b><br/>
                  	
-                 	A. Almost all of the free ROMs on the MAME site are licensed only for non-
-                 	commercial use, and only for distribution from the MAME site. Just because
-                 	they are available for "free" here does not grant further redistribution
-                 	rights, nor does it allow you to treat them as "freebies" for commercial
-                 	use.
+                 	A. MAME网站上的几乎所有免费ROM都只获得非许可
+                 	商业用途，仅限于从MAME网站发布。只是因为
+                 	它们可用于“免费”，此处不授予进一步的再分发
+                 	权利，也不允许你将它们视为商业的“免费赠品”
+                 	使用。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. If I obtain a license from an original manufacturer to distribute the ROMs can I use MAME to run them?</b><br/>
+                 	<b>Q. 如果我从原始制造商处获得的关于发布我可以使用MAME的ROM来运行它们？</b><br/>
                  	
-                 	A. Generally, yes, but we can not give any support without proof that such a license has
-                 	already been obtained.
+                 	A. 一般情况下，是的，但如果没有此类许可证的证据，我们就无法提供任何支持
+                 	已经获得。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. Can I use a PC running MAME to replace a real arcade PCB?</b><br/>
+                 	<b>Q. 我可以使用运行MAME一台PC来代替真正的街机PCB？</b><br/>
                  	
-                 	A. In order to do this you would have to use a copy of the original  
-					ROMs, which would require obtaining permission from the original  
-					manufacturer. Once you had permission from them, if it was used for  
-					non-commercial purposes, then you would not technically be violating  
-					the MAME license. However we still do not explicitly give permission  
-					to use MAME in this way because of the possibility of the game being  
-					sold sometime later, which would constitute commercial use of MAME. If  
-					you sell your game later you must sell it without MAME included.
+                 	A. 为了做到这一点，你必须使用原件的副本  
+					ROM，需要获得原件的许可  
+					制造商。一旦您获得了他们的许可，如果它被用于  
+					非商业目的，那么你在技术上不会违反  
+					MAME许可证。但是我们仍然没有明确给予许可  
+					因为游戏的可能性，以这种方式使用MAME  
+					稍后出售，这将构成MAME的商业用途。如果  
+					你以后出售你的游戏你必须在没有包含MAME的情况下出售它。
                  	</p>
                  	
                  	<p>
-                 	<b>Q. Can I ask for donations for the work I did on my port of MAME to platform X?</b><br/>
+                 	<b>Q. 我可以要求捐款用于我在MAME港口对X平台所做的工作吗？</b><br/>
                  	
-                 	A. No. You would be earning money from the MAME trademark and that is forbidden.
- 					It is our wish that MAME remain free for all.
+                 	A. 不会。您将从MAME商标中赚钱，这是禁止的。
+ 					我们希望MAME对所有人保持自由。
                  	</p>
 		<br/><br/>
 	</div>
