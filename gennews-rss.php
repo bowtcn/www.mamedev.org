@@ -6,8 +6,8 @@ echo("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
 	<channel>
 		<title><?php echo($pagetitle); ?></title>
 		<link>http://mamedev.org/</link>
-		<description>The Official Site of the MAME Development Team</description>
-		<language>en-us</language>
+		<description>MAME开发团队的官方网站</description>
+		<language>美国英语|en-us</language>
 		<pubDate><?php echo(date('r', getposttimestamp($postfiles[0]))); ?></pubDate>
 		<lastBuildDate><?php echo(date('r')); ?></lastBuildDate>
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
