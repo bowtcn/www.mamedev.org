@@ -1,95 +1,95 @@
 <?php
-$title = 'MAME | Resources';
+$title = 'MAME | 资源';
 ?>
 <?php require($_SERVER['DOCUMENT_ROOT'] . '/_include/html/header.html'); ?>
 
 <!-- Page Content -->
 <div class="container">
 
-	<center><h1 class="page-header">Resources</h1></center>
+	<center><h1 class="page-header">资源|Resources</h1></center>
 
 	<h2>Information</h2>
 	<ul>
-		<li><a href="http://www.mamedev.org/about.html" target="blank">About</a></li>
-		<li><a href="http://www.mamedev.org/history.html" target="blank">History</a></li>
-		<li><a href="http://www.mamedev.org/legal.html" target="blank">Legal</a></li>
-		<li><a href="http://www.mamedev.org/logo.html" target="blank">Logo</a></li>
-		<li><a href="http://www.mamedev.org/contact.html" target="blank">Contact</a></li>
+		<li><a href="http://www.mamedev.org/about.html" target="blank">关于About</a></li>
+		<li><a href="http://www.mamedev.org/history.html" target="blank">历史History</a></li>
+		<li><a href="http://www.mamedev.org/legal.html" target="blank">法律Legal</a></li>
+		<li><a href="http://www.mamedev.org/logo.html" target="blank">标志Logo</a></li>
+		<li><a href="http://www.mamedev.org/contact.html" target="blank">联系Contact</a></li>
 	</ul>
-	<h2>Downloads</h2>
+	<h2>下载|Downloads</h2>
 	<ul>
-		<li><a href="http://www.mamedev.org/release.html" target="blank">Latest Release</a></li>
-		<li><a href="http://www.mamedev.org/oldrel.html" target="blank">Previous Releases</a></li>
+		<li><a href="http://www.mamedev.org/release.html" target="blank">最新推出/a></li>
+		<li><a href="http://www.mamedev.org/oldrel.html" target="blank">以前版本</a></li>
 	</ul>
-	<h2>Documentation</h2>
+	<h2>文档|Documentation</h2>
 	<ul>
-		<li><a href="http://docs.mamedev.org/" target="blank">MAME Documentation</a></li>
-		<li><a href="http://wiki.mamedev.org/" target="blank">MAME Development Wiki</a></li>
-		<li><a href="http://wiki.mamedev.org/index.php?title=Frequently_Asked_Questions" target="blank">MAME FAQ</a></li>
-		<li><a href="http://wiki.mamedev.org/index.php?title=How_MAME_Works" target="blank">MAME Developer Docs</a></li>
-		<li><a href="http://mess.redump.net/mess/howto" target="blank">MESS User's Manual</a></li>
+		<li><a href="http://docs.mamedev.org/" target="blank">MAME文档</a></li>
+		<li><a href="http://wiki.mamedev.org/" target="blank">MAME发展维基</a></li>
+		<li><a href="http://wiki.mamedev.org/index.php?title=Frequently_Asked_Questions" target="blank">MAME FAQ|常见问题解答</a></li>
+		<li><a href="http://wiki.mamedev.org/index.php?title=How_MAME_Works" target="blank">MAMEMAME开发文档/a></li>
+		<li><a href="http://mess.redump.net/mess/howto" target="blank">MESS用户手册</a></li>
 	</ul>
-	<h2 id="link">Individual Developers' Sites</h2>
+	<h2 id="link">个别开发者网站</h2>
 	<p>
-	Please visit the <a href="http://wiki.mamedev.org/index.php/Developer_WIPs">Developer WIPs</a>
-	list on our <a href="http://wiki.mamedev.org/">Documentation Wiki</a> for an
-	up-to-date list of developer blogs, WIP pages, and to-do lists.
+	请访问 <a href="http://wiki.mamedev.org/index.php/Developer_WIPs">Developer WIPs</a>
+	在我们的列表<a href="http://wiki.mamedev.org/">Documentation Wiki</a>用于
+	最新的开发人员博客，WIP页面和待办事项列表。
 	</p>
-	<h2>Sources for ROM Images</h2>
+	<h2>ROM图像的来源</h2>
 	<ul>
-		<li><a href="http://www.mamedev.org/roms" target="blank">mamedev.org</a> &mdash; a few owners have granted permission to use their ROMs for non-commercial use</li>
-		<li><a href="http://web.archive.org/web/20160402171815/http://www.gaelco.com/english/pages/hablando/frhablan.htm" target="blank">Gaelco</a> &mdash; has released the ROMs for their game <b>World Rally</b> for all to enjoy!</li>
+		<li><a href="http://www.mamedev.org/roms" target="blank">mamedev.org</a> &mdash; 少数业主已批准将其ROM用于非商业用途</li>
+		<li><a href="http://web.archive.org/web/20160402171815/http://www.gaelco.com/english/pages/hablando/frhablan.htm" target="blank">Gaelco</a> &mdash; 为他们的游戏<b>世界拉力赛World Rally</b> 发布了ROM供所有人享用!</li>
 	</ul>
-	<h2>Compiling and Source</h2>
+	<h2>编译和来源</h2>
 	<ul>
-		<li><a href="http://mamedev.org/tools/" target="blank">Tools for building MAME on Windows</a></li>
-		<li><a href="https://github.com/mamedev/mame/" target="blank">MAME's official repo on Github</a></li>
-		<li><a href="http://git.redump.net/mame/" target="blank">Redump.net's MAME/MESS GIT Repository Browser</a></li>
-		<li><a href="http://mame.dorando.at/svn/" target="blank">MAME Git History at Dorando.</a></li>
+		<li><a href="http://mamedev.org/tools/" target="blank">用于构建MAME在Windows</a></li>
+		<li><a href="https://github.com/mamedev/mame/" target="blank">MAME的在Github官方回购</a></li>
+		<li><a href="http://git.redump.net/mame/" target="blank">Redump.net的MAME / MESS GIT库浏览器</a></li>
+		<li><a href="http://mame.dorando.at/svn/" target="blank">MAME Git在Dorando的历史。</a></li>
 	</ul>
-	<h2>Extra Files for MAME</h2>
+	<h2>MAME的额外文件</h2>
 	<ul>
-		<li><a href="http://www.progettoemma.net/?catlist" target="blank">Catlist</a></li>
+		<li><a href="http://www.progettoemma.net/?catlist" target="blank">Cat列表|Catlist</a></li>
 		<li><a href="http://ledblinky.net/Download.htm" target="blank">Colors.ini</a></li>
 		<li><a href="http://www.progettosnaps.net/command/" target="blank">Command.dat</a></li>
 		<li><a href="https://web.archive.org/web/20150220112407id_/http://controls.arcadecontrols.com/" target="blank">Controls.dat</a></li>
 		<li><a href="http://www.arcade-history.com/index.php?page=download" target="blank">History.dat</a></li>
 		<li><a href="http://www.progettosnaps.net/gameinit/" target="blank">GameInit.dat</a></li>
-		<li><a href="http://mrdo.mameworld.info/mame_artwork.php" target="blank">MAME Artwork</a></li>
-		<li><a href="http://samples.mameworld.info/" target="blank">MAME Samples</a></li>
+		<li><a href="http://mrdo.mameworld.info/mame_artwork.php" target="blank">MAME插图，MAME Artwork</a></li>
+		<li><a href="http://samples.mameworld.info/" target="blank">MAME 样品Samples</a></li>
 		<li><a href="http://mameinfo.mameworld.info/" target="blank">MAMEInfo.dat</a></li>
-		<li><a href="http://mess.redump.net/artwork" target="blank">MESS Artwork</a></li>
+		<li><a href="http://mess.redump.net/artwork" target="blank">MESS 插图Artwork</a></li>
 		<li><a href="http://www.progettosnaps.net/messinfo" target="blank">MESSINFO.dat</a></li>
 		<li><a href="http://nplayers.arcadebelgium.be/" target="blank">NPlayers</a></li>		
-		<li><a href="http://www.progettosnaps.net/" target="blank">Progetto-Snaps</a></li>
-		<li><a href="http://www.mamecheat.co.uk/" target="blank">Pugsy's Cheats</a></li>
+		<li><a href="http://www.progettosnaps.net/" target="blank">Progetto-Snaps快照</a></li>
+		<li><a href="http://www.mamecheat.co.uk/" target="blank">Pugsy's Cheats秘籍</a></li>
 		<li><a href="http://www.arcadehits.net/mamescore/home.php?show=files" target="blank">Story.dat</a></li>
 		<li><a href="http://www.progettoemma.net/mess/extra.html" target="blank">SysInfo.dat</a></li>
-		<li><a href="http://www.progettosnaps.net/catver/" target="blank">Unofficial CatVer</a></li>
-		<li><a href="http://www.progettosnaps.net/command/" target="blank">Unofficial Command.dat</a></li>
-		<li><a href="http://highscore.mameworld.info/" target="blank">Unofficial Hiscore.dat (official comes with MAME)</a></li>
+		<li><a href="http://www.progettosnaps.net/catver/" target="blank">Unofficial CatVer，非官方</a></li>
+		<li><a href="http://www.progettosnaps.net/command/" target="blank">Unofficial Command.dat，非官方</a></li>
+		<li><a href="http://highscore.mameworld.info/" target="blank">Unofficial Hiscore.dat，非官方 （官方自带MAME）</a></li>
 	</ul>
-	<h2>Frontends</h2>
+	<h2>前端|Frontends</h2>
 	<p>
-	Please visit <a href="http://docs.mamedev.org/usingmame/frontends.html" target="blank">MAME Documentation</a>, 
-	<a href="http://mameworld.info/" target="blank">MAMEWorld</a> or the <a href="http://mess.redump.net/mess/howto#frontends" target="blank">
-	MESS User's Manual</a> for a list of these.
+	请访问 <a href="http://docs.mamedev.org/usingmame/frontends.html" target="blank">MAME文档</a>, 
+	<a href="http://mameworld.info/" target="blank">MAMEWorld</a> 或 the <a href="http://mess.redump.net/mess/howto#frontends" target="blank">
+	MESS 用户手册</a> 获取这些列表.
 	</p>
-	<h2>Social Media</h2>
+	<h2>社交媒体Social Media</h2>
 	<ul>
 		<li><a href="https://www.facebook.com/mamedev.org/" target="blank">MAME on Facebook</a></li>
 		<li><a href="http://mamedev.imgur.com/" target="blank">MAME on imgur</a></li>
 		<li><a href="https://www.instagram.com/mamedev_org/" target="blank">MAME on Instagram</a></li>
 		<li><a href="https://twitter.com/mamedev_org" target="blank">MAME on Twitter</a></li>
 	</ul>
-	<h2>Community and Support</h2>
+	<h2>社区和支持 Community and Support</h2>
 	<ul>
-		<li><a href="http://www.mametesters.org/" target="blank">MAME Testers</a></li>
-		<li><a href="http://forum.mamedev.org/" target="blank">MAME Official Forums</a></li>
-		<li><a href="http://www.mamedev.org/irc.html" target="blank">Official MAME Chat on IRC</a></li>
-		<li><a href="http://forums.bannister.org/ubbthreads.php?ubb=postlist&Board=1" target="blank">MAME Forum at Emuversal (Bannister.org)</a></li>
-		<li><a href="http://www.mameworld.info/ubbthreads/ubbthreads.php?Cat=" target="blank">MAMEWorld Forums</a></li>
-		<li><a href="http://forum.arcadecontrols.com/" target="blank">Build Your Own Arcade Controls Forum</a></li>
+		<li><a href="http://www.mametesters.org/" target="blank">MAME测试器MAME Testers</a></li>
+		<li><a href="http://forum.mamedev.org/" target="blank">MAME官方论坛</a></li>
+		<li><a href="http://www.mamedev.org/irc.html" target="blank">官方MAME聊天上IRC</a></li>
+		<li><a href="http://forums.bannister.org/ubbthreads.php?ubb=postlist&Board=1" target="blank">MAME论坛Emuversal（Bannister.org）</a></li>
+		<li><a href="http://www.mameworld.info/ubbthreads/ubbthreads.php?Cat=" target="blank">MAMEWorld论坛</a></li>
+		<li><a href="http://forum.arcadecontrols.com/" target="blank">构建你自己的街机控制论坛</a></li>
 		<li><a href="http://www.mameguide.info" target="blank">Mameguide</a></li>
 		<li><a href="http://arcademania.eu/" target="blank">Arcademania (ITA)</a></li>
 		<li><a href="http://www.mame.gr/" target="blank">MAME.gr (GRC)</a></li>
@@ -111,7 +111,7 @@ $title = 'MAME | Resources';
 		<li><a href="http://www.ukvac.com/" target="blank">UKVAC</a></li>
 		
 	</ul>
-	<h2>Other MAME-focused Sites</h2>
+	<h2>其他关注MAME的网站</h2>
 	<ul>
 		<li><a href="http://adb.arcadeitalia.net/" target="blank">Arcade Database (ADB)</a></li>
 		<li><a href="http://www.arcadehits.net/" target="blank">arcadeHITS (FRA)</a></li>
@@ -131,7 +131,7 @@ $title = 'MAME | Resources';
 		<li><a href="http://mamedev.emulab.it/undumped/" target="blank">Undumped Wiki</a></li>
 		<li><a href="http://unmamed.mameworld.info/" target="blank">UnMAMEd Games Database</a></li>
 	</ul>
-	<h2>Unofficial Forks and Ports</h2>
+	<h2>非官方分叉和端口</h2>
 	<ul>
 		<li><a href="http://www.advancemame.it/" target="blank">AdvanceMAME</a></li>
 		<li><a href="http://hbmame.1emulation.com/" target="blank">HBMAME</a></li>
@@ -146,7 +146,7 @@ $title = 'MAME | Resources';
 		<li><a href="http://sdlmame.wallyweek.org/" target="blank">SDLMAME for Ubuntu</a></li>
 		<li><a href="http://wolfmame.marpirc.net/" target="blank">WolfMAME</a></li>
 	</ul>
-	<h2>General Emulation Sites</h2>
+	<h2>通用Emulation站点</h2>
 	<ul>
 		<li><a href="http://caesar.logiqx.com/" target="blank">CAESAR</a></li>
 		<li><a href="http://cps2shock.emu-france.info/" target="blank">CPS-2 Shock</a></li>
@@ -166,7 +166,7 @@ $title = 'MAME | Resources';
 		<li><a href="http://www.vg-network.com/" target="blank">VG-Network</a></li>
 		<li><a href="http://www.zophar.net/" target="blank">Zophar's Domain</a></li>
 	</ul>
-	<h2>General Arcade Sites</h2>
+	<h2>通用Arcade站点</h2>
 	<ul>
 		<li><a href="http://www.mameworld.info/mameinfo/movies/index.html" target="blank">Arcade At The Movies</a></li>
 		<li><a href="http://www.arcadecollecting.com/" target="blank">ArcadeCollecting.com</a></li>
