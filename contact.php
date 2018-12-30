@@ -1,12 +1,12 @@
 <?php
-$title = 'MAME | Contact the Team';
+$title = 'MAME | 联系团队';
 ?>
 	<?php require($_SERVER['DOCUMENT_ROOT'] . '/_include/html/header.html'); ?>
 
-	<!-- Page Content -->
+	<!-- 页面内容Page Content -->
 	<div class="container">
 
-		<h1 class="page-header"><center>Contacting the MAME Team</center></h1>
+		<h1 class="page-header"><center>联系MAME团队</center></h1>
 		
 				<script language="JavaScript" type="text/javascript">
 				//<![CDATA[
@@ -18,13 +18,13 @@ $title = 'MAME | Contact the Team';
 
 					if (curvalue == "faq") form.action = "http://wiki.mamedev.org/index.php?title=Frequently_Asked_Questions";
 					else if (curvalue == "roms") form.action = "/links.php#link";
-					else if (curvalue == "bug") form.action = "http://mametesters.org";
-					else if (curvalue == "legal") form.action = "/contact2.php?=legal";
-					else if (curvalue == "submit") form.action = "http://wiki.mamedev.org/index.php?title=Submitting_Source_Code";
+					else if (curvalue == "程序bug") form.action = "http://mametesters.org";
+					else if (curvalue == "法律的|legal") form.action = "/contact2.php?=legal";
+					else if (curvalue == "建议|submit") form.action = "http://wiki.mamedev.org/index.php?title=Submitting_Source_Code";
 					else if (curvalue == "none") form.action = "/contact2.php?=team";
 					else
 					{
-						alert("Please select one of the options below and press the Next button. (" + curvalue + ")");
+						alert("请选择以下选项之一，然后按下一步按钮。 (" + curvalue + ")");
 						return false;
 					}
 					return true;
@@ -33,49 +33,49 @@ $title = 'MAME | Contact the Team';
 				</script>
 
 					<p>
-					What do you wish to contact us regarding?
+					关于什么事您想和我们联系?
 					</p>
 
 					<form onsubmit="return checkForm(this)" name="email" method="post" action="#">
 						<p>
 						<input type="radio" name="radiobut" value="faq">
-						I can't figure out how to use the software!
+						我无法弄清楚如何使用该软件！
 						</input>
 						</p>
 
 						<p>
 						<input type="radio" name="radiobut" value="roms">
-						Where can I get ROMs to run in MAME?
+						我在哪里可以让ROM在MAME中运行？
 						</input>
 						</p>
 
 						<p>
 						<input type="radio" name="radiobut" value="bug">
-						I think I found a bug in MAME and I'd like to report it.
+						我想我在MAME中发现了一个错误，我想报告一下。
 						</input>
 						</p>
 
 						<p>
 						<input type="radio" name="radiobut" value="legal">
-						I have a legal question or wish to report abuse of MAME.
+						我有法律问题或希望报告滥用MAME。
 						</input>
 						</p>
 
 						<p>
 						<input type="radio" name="radiobut" value="submit">
-						I have a new ROM dump that I would like to submit.
+						我有一个新的ROM转储，我想提交。
 						</input>
 						</p>
 
 						<p>
 						<input type="radio" name="radiobut" value="submit">
-						I've made some changes to the source code and would like to submit them.
+						我对源代码进行了一些更改，并希望提交它们。
 						</input>
 						</p>
 
 						<p>
 						<input type="radio" name="radiobut" value="none">
-						None of the above.
+						以上都不是。
 						</input>
 						</p>
 
